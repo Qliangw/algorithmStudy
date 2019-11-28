@@ -1,14 +1,10 @@
-/*******************************************************************************
-  * @brief  ≤Â»Î≈≈–Ú
-  * @param  
-  * @retval None
-*******************************************************************************/
-static void InsertSort(uint16_t *array,uint8_t length)
+
+static void InsertSort(unsigned int *array,unsigned char length)
 {
 
 	int left;
 	int right;
-	uint16_t temp;
+	unsigned int temp;
 	for(right = 1; right < length; right++)
 	{
 		temp = array[right];
