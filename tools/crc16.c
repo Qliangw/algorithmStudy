@@ -43,7 +43,7 @@ const unsigned char CRCL[]=
  *  CRC16-MODBUS
  *  x6 + x5 + x2 + 1
 *****************************************/
-unsigned int Crc(unsigned char *Mess,unsigned char DataLen)
+unsigned int crc(unsigned char *Mess,unsigned char DataLen)
 {
 	unsigned char CRCHi = 0xFF,CRCLo = 0xFF,num;
 	while(DataLen--)

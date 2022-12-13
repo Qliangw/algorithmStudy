@@ -3,7 +3,7 @@
   * @param  
   * @retval None
 *******************************************************************************/
-static void InsertSort(unsigned int *array,unsigned char length)
+static void insert_sort(unsigned int *array,unsigned char length)
 {
 
 	int left;

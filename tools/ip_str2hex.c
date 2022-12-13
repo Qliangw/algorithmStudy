@@ -6,7 +6,7 @@
             前一个为输入，后两个为输出
   * @retval None
 *******************************************************************************/
-void IP_StrToHex(unsigned char *_ipstr, unsigned char *_iphex, unsigned int *_port)
+void ip_str2hex(unsigned char *_ipstr, unsigned char *_iphex, unsigned int *_port)
 {
 //  uint16_t i = 0;
   unsigned char ip_buf[22];

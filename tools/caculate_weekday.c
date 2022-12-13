@@ -3,7 +3,7 @@
   * @param  
   * @retval None
 *******************************************************************************/
-static char CaculateWeekDay(int yyyy,char mm, char dd)
+static char caculate_weekday(int yyyy,char mm, char dd)
 {
   if( mm==1 || mm==2)
   {

@@ -3,7 +3,7 @@
   * @param  
   * @retval None
 *******************************************************************************/
-static char IsLeapYear(int _year) //const
+static char is_leap_year(int _year) //const
 {
     if (_year % 4 == 0 && _year % 100 != 0 || _year % 400 == 0)
         return 1;
@@ -21,7 +21,7 @@ static char IsLeapYear(int _year) //const
   * @param  
   * @retval None
 *******************************************************************************/
-static char DayOfMonth(int year,char month)
+static char day_of_month(int year,char month)
 {
     char day = 0;
     switch (month)
